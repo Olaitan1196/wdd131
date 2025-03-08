@@ -1,0 +1,91 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply grid layout to body */
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: white;
+}
+.site-title {
+    text-align: center; /* Centers text horizontally */
+    font-size: 2rem; /* Adjusts size */
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #fca311; /* Highlight color */
+    margin-bottom: 10px;
+}
+/* Style the header */
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+/* Flexbox navigation styling */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #fca311;
+}
+
+/* Main content area */
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 30px;
+}
+
+/* Sections styling */
+section, aside {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e1e1e;
+}
