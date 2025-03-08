@@ -45,6 +45,8 @@ main {
     padding: 20px;
     gap: 20px;
     flex-wrap: wrap;
+    max-width: 1200px; /* preferred value */
+    margin: 0 auto;
 }
 
 /* Card Styling */
