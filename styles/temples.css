@@ -35,11 +35,11 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    height: 40vh;
+    height: 20vh;
     background-color: #4B006E;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 nav.active {
@@ -66,7 +66,7 @@ nav ul {
     color: white;
 }
 
-nav ul li {
+nav ul li :hover {
     margin: 20px 0;
     color: white
 }
