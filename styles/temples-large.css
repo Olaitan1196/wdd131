@@ -1,0 +1,91 @@
+/* Default styles for large screens */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4B006E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+/* Hide the menu button on large screens */
+.menu-button, .close-button {
+    display: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+/* Grid layout for large screens */
+@media screen and (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    figure {
+        margin: 0;
+        text-align: center;
+    }
+
+    figure img {
+        width: 95%;
+        height: auto;
+        gap: 0;
+    }
+
+    figcaption {
+        margin-top: 5px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+footer {
+    background-color: #1f3b64;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+#lastModified {
+    color: yellow;
+    font-size: 0.8em;
+}
