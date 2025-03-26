@@ -12,12 +12,10 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    --primary-color: #13bd5a;
-    --secondary-color: #10c872;
 }
 
 header {
-    background-color: #13bd5a;
+    background-color: var(--primary-color);
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -59,7 +57,7 @@ img {
 
 .weather {
     text-align: center;
-    background: #e3f2fd;
+    background-color: var(--bg-color);
     padding: 15px;
     border-radius: 10px;
 }
@@ -72,7 +70,7 @@ img {
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #10c45b;
+    background-color: var(--secondary-color);
     color: white;
     margin-top: 20px;
 }
@@ -92,5 +90,12 @@ footer {
 @media screen and (min-width: 768px) {
     main {
         width: 70%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #121212;
+        --text-color: #ffffff;
     }
 }
