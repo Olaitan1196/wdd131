@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nigeria is a country in West Africa. It is the most populous country in Africa and the seventh most populous country in the world. Nigeria has a diverse geography, with climates ranging from arid to humid equatorial. However, Nigeria’s most diverse feature is its people. Hundreds of languages are spoken in the country, including Yoruba, Igbo, Fula, Hausa, Edo, Ibibio, Tiv, and English. The country has abundant natural resources, notably large deposits of petroleum and natural gas.">
+    <meta name="keywords" content="Nigeria, Africa, West Africa, Yoruba, Igbo, Fula, Hausa, Edo, Ibibio, Tiv, English, petroleum, natural gas">
+    <meta name="author" content="Olaitan Ezekiel Omoniyi">
+    <title>Nigeria</title>
+    <link rel="stylesheet" href="styles/place.css" media="screen and (max-width: 767px)">
+    <link rel="stylesheet" href="styles/place-large.css" media="screen and (min-width: 768px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/getweather.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+    <main>
+        <img
+            srcset="
+            images/hero-small.webp 480w,
+            images/hero-medium.webp 768w,
+            images/hero-large.webp 1200w
+            "
+            sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px"
+            src="images/hero-large.webp"
+            alt="Beautiful landscape of Nigeria"
+        >
+        <div class="data">
+            <section>
+                <h2>Data</h2>
+                <p><b class="bold-text">Area:</b> <span class="highlighted-text">587,041 sq km</span></p>
+                <p><b class="bold-text">Population:</b> <span class="highlighted-text">234,573,603</span></p>
+                <p><b class="bold-text">Capital:</b> <span class="highlighted-text">Abuja</span></p>
+                <p><b class="bold-text">Languages:</b> <span class="highlighted-text">Yoruba, Hausa, Igbo</span></p>
+                <p><b class="bold-text">Currency:</b> <span class="highlighted-text">Naira</span></p>
+                <p><b class="bold-text">Time Zone:</b> <span class="highlighted-text">UTC+1</span></p>
+                <p><b class="bold-text">Calling Code:</b> <span class="highlighted-text">+234</span></p>
+                <p><b class="bold-text">Internet TLD:</b> <span class="highlighted-text">.ng</span></p>
+            </section>
+        </div>
+        <section class="weather">
+            <h2 class="weather-heading">Weather</h2>
+            <div class="weather-icon">
+                <img src="images/weather-mobile.svg" alt="Weather Icon" class="mobile-icon" />
+                <span class="desktop-icon"></span>
+            </div>
+            <p class="weather-details">Sunny, 25°C</p>
+            <p>Wind Chill: <span id="windchill">N/A</span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Olaitan Ezekiel ☘️ Nigeria ☘️</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

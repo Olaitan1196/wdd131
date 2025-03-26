@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #13bd5a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.8rem;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.data, .weather {
+    margin-top: 20px;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.highlighted-text {
+    color: #064420;
+    font-weight: bold;
+}
+
+.weather {
+    text-align: center;
+    background: #e3f2fd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.weather-icon {
+    font-size: 2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #10c45b;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+    main {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .weather-icon {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 70%;
+    }
+}

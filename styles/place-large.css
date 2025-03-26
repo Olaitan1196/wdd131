@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+header {
+    background-color: #10c872;
+    color: white;
+    height: 100px;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Data Section */
+.data {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    position: absolute;
+    top: 26%;
+    left: 1%;
+    width: 250px;
+    text-align: left;
+}
+
+.data h2 {
+    background-color: #166534;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.data p {
+    margin: 5px 0;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/* Weather Section */
+.weather {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    width: 200px;
+    text-align: left;
+    height: 250px;
+}
+
+.weather h2 {
+    background-color: #166534;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.weather p {
+    margin: 5px 0;
+}
+
+.weather-icon {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Footer */
+footer {
+    background-color: #10c881;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+}
