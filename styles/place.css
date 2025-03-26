@@ -1,4 +1,9 @@
 /* General Styles */
+html {
+    --primary-color: #13bd5a;
+    --secondary-color: #10c872;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
