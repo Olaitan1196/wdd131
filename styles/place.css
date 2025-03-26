@@ -12,6 +12,8 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    --primary-color: #13bd5a;
+    --secondary-color: #10c872;
 }
 
 header {
