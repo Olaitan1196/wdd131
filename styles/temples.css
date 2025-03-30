@@ -4,6 +4,8 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    color: #333; /* Darker text for better readability */
+    background-color: #fff;
 }
 
 header {
@@ -35,11 +37,12 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     background-color: #4B006E;
     flex-direction: column;
     align-items: center;
     justify-content: left;
+    
 }
 
 nav.active {
@@ -64,16 +67,21 @@ nav ul {
     flex-direction: column;
     align-items: center;
     color: white;
+    list-style: none;
+    text-align: center;
 }
 
 nav ul li :hover {
     margin: 20px 0;
-    color: white
+    color: white;
+    list-style: none;
+    text-align: left;
 }
 
 a {
     color: white;
     text-decoration: none;
+    list-style: none;
 }
 
 /* Block layout for small screens */
@@ -98,6 +106,40 @@ a {
         margin-top: 5px;
         font-weight: bold;
     }
+
+    .temple {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .temple-card {
+        background: #f9f9f9;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    .temple-card h3 {
+        margin: 10px 0;
+        font-size: 1.2rem;
+    }
+    
+    .temple-card p {
+        margin: 5px 0;
+        font-size: 0.9rem;
+        color: #555;
+    }
+    
+    .temple-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+        margin-top: 10px;
+    }
+    
 }
 
 footer {
