@@ -1,8 +1,8 @@
 /* General Styles */
 :root {
-    --primary-color: #08401f;
-    --secondary-color: #113022;
-    --text-color: #333;
+    --primary-color: #1cc237;
+    --secondary-color: #20c043;
+    --text-color: #26ae46;
     --bg-color: #ffffff;
 }
 
@@ -12,12 +12,12 @@ body {
     padding: 0;
     background-color: var(--bg-color);
     text-align: center;
-    --primary-color: #08341a;
+    --primary-color: #10c95d;
     --secondary-color: #0a2e1d;
 }
 
 header {
-    background-color: #042717;
+    background-color: #13d03c;
     color: white;
     height: 100px;
     padding: 20px 0;

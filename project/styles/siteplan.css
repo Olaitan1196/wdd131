@@ -1,0 +1,54 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fff;
+    color: #5D4037;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #F8BBD0;
+  }
+  
+  h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #F8BBD0;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 1px solid #000;
+  }
+  
+  .pink {
+    background-color: #F8BBD0;
+  }
+  
+  .brown {
+    background-color: #5D4037;
+  }
+  
+  ul {
+    list-style-type: square;
+    margin-left: 1.5rem;
+  }
+  
+  .wireframe {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 1rem;
+    border: 1px dashed #ccc;
+  }
+  
